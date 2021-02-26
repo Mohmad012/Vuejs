@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="head"> 
+
+			<form>
+
+				v-model Is Be In ==> [ Input && Select && Textarea ]
+
+				<!-- v-model Will Be Make Tow Ways Bind [ Will Be Update His Self And Update Olso The Data From Vue ] -->
+				<input type="" :value="source" placeholder="from v-model">
+
+				<!-- v-model Will Be Make One Way Bind [ Will Be Update His Self Only And Not Update Olso The Data From Vue ] -->
+				<input type="" v-model="source" placeholder="from v-bind">
+			</form>
+			{{ source }}
+		</div>
+
+
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

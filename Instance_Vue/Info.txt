@@ -1,0 +1,25 @@
+
+<-- Points In Vuejs Course -->
+
+1- Light Weight
+2- Virtual <--> DOM
+3- Reusable Components
+4- Directives [ If Conditon ]
+5- Event Handling
+6- Animations
+7- Watchers
+8- CLI [ Command Line Interface ]
+9- Routing
+10- Unit Testing With CLI
+11- Mixins
+
+----------------------------------------------------------------------------
+
+Single Page Application ==> This You Can Add Page or delete Page Or Do Any Thing From Single Page Only
+
+Vuejs Is Do By ==> MVVM [ Model View View Model Model ]
+
+	  User Input			 Modifies
+View -----------> View Model -------> Model
+	 <-----------
+	  Updates

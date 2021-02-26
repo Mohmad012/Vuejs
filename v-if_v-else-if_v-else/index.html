@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="head"> 
+
+			<!-- Must Be The [ if & else-if & else ] Is In After -->
+			<p v-if="age > 50">Your Is Old</p> <!-- This Will Show The Paragragh When ==> name Is Found And If Not Will Not Show In DOM Tree -->
+			<p v-else-if="age > 16 && age < 40">Your Is Not Old</p>
+			<p v-else>Your Is Yange</p>
+
+		</div>
+
+
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

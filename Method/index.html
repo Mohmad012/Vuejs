@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="head"> <!-- {{  }} You Can Wright Javascript On It -->
+
+			<p> Your Name Is: {{name.length > 3 ? name : 'This Word Is Shourt'}}</p>
+			<p> Your Age Is: {{age + ' Years'}}</p>
+			<p> Your Skil Is: {{skiles[1]}}</p>
+			<p> Your Are: {{issubscribed ? 'subscrib' : 'Not subscrib'}}</p>
+			<p> Your Tests Name Is: {{completetest[2].testName}}</p>
+			<p> Your Tests Result Is: {{completetest[2].testResult}}</p>
+
+
+			<p> Your Method Is: {{word()}}</p> 
+			<p> Your Method Is: {{sayName()}}</p> 
+		</div>
+
+
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

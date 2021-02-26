@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="head">
+
+			<p> This Is Function To Calculation {{ nameing() }}</p>
+			<p> This Is Function To Calculation {{ nameing() }}</p>
+			<p> This Is Function To Calculation {{ nameing() }}</p>
+			<p> This Is Function To Calculation {{ age }}</p>
+
+
+			<p> This Is Computed Calculation {{ nameing1 }}</p>
+			<p> This Is Computed Calculation {{ nameing1 }}</p>
+			<p> This Is Computed Calculation {{ nameing1 }}</p>
+			<p> This Is Computed Calculation {{ age }}</p>
+
+			<hr>
+			<div style="height: 20px"></div>
+			<hr>
+
+			<label>Search For Programing Language: </label>
+			<input type="text" v-model="finalLang">
+
+			<ul>
+				<li v-for="lang in filterLanguages">
+					{{ lang }}
+				</li>
+			</ul>
+
+			<label>Wright Your Username: </label>
+			<input type="text" v-model="username"> <!-- v-model.lazy This Will Do After Make Render -->
+			<p> {{ validationName }} </p>
+
+			<p> {{ validationName1() }} </p>
+
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

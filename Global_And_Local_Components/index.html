@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="head">
+			
+			<!-- This Must Inter In Here To Work  -->
+			<app-count :source="source" :url="url"></app-count> <!-- You Must Be Wright The Name As [ Cabab Case ] -->
+			<app-count :source="source" :url="url"></app-count>
+			<app-count :source="source" :url="url"></app-count>
+			<hr>
+			<hr>
+			<hr>
+			<hr>
+			<app-article v-for="post in posts" :title="post.title" :id="post.id" :auther="post.auther"></app-article>
+
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
